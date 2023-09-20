@@ -21,70 +21,8 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		OBJ_100 /* Diffing.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* Diffing.swift */; };
-		OBJ_101 /* Wait.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* Wait.swift */; };
-		OBJ_102 /* SnapshotTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_22 /* SnapshotTestCase.swift */; };
-		OBJ_103 /* Snapshotting.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_23 /* Snapshotting.swift */; };
-		OBJ_104 /* Any.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_25 /* Any.swift */; };
-		OBJ_105 /* CALayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_26 /* CALayer.swift */; };
-		OBJ_106 /* CGPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_27 /* CGPath.swift */; };
-		OBJ_107 /* CaseIterable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* CaseIterable.swift */; };
-		OBJ_108 /* Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_29 /* Codable.swift */; };
-		OBJ_109 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_30 /* Data.swift */; };
-		OBJ_110 /* Description.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_31 /* Description.swift */; };
-		OBJ_111 /* NSBezierPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_32 /* NSBezierPath.swift */; };
-		OBJ_112 /* NSImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_33 /* NSImage.swift */; };
-		OBJ_113 /* NSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_34 /* NSView.swift */; };
-		OBJ_114 /* NSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_35 /* NSViewController.swift */; };
-		OBJ_115 /* SceneKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_36 /* SceneKit.swift */; };
-		OBJ_116 /* SpriteKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_37 /* SpriteKit.swift */; };
-		OBJ_117 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_38 /* String.swift */; };
-		OBJ_118 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_39 /* SwiftUIView.swift */; };
-		OBJ_119 /* UIBezierPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_40 /* UIBezierPath.swift */; };
-		OBJ_120 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_41 /* UIImage.swift */; };
-		OBJ_121 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_42 /* UIView.swift */; };
-		OBJ_122 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_43 /* UIViewController.swift */; };
-		OBJ_123 /* URLRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_44 /* URLRequest.swift */; };
-		OBJ_130 /* InlineSnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_47 /* InlineSnapshotTests.swift */; };
-		OBJ_131 /* SnapshotTestingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_48 /* SnapshotTestingTests.swift */; };
-		OBJ_132 /* TestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_49 /* TestHelpers.swift */; };
-		OBJ_133 /* WaitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_50 /* WaitTests.swift */; };
-		OBJ_134 /* testCreateSnapshotEscapedNewlineLastLine.1.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_53 /* testCreateSnapshotEscapedNewlineLastLine.1.swift */; };
-		OBJ_135 /* testCreateSnapshotMultiLine.1.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_54 /* testCreateSnapshotMultiLine.1.swift */; };
-		OBJ_136 /* testCreateSnapshotSingleLine.1.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_55 /* testCreateSnapshotSingleLine.1.swift */; };
-		OBJ_137 /* testCreateSnapshotWithExtendedDelimiter1.1.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_56 /* testCreateSnapshotWithExtendedDelimiter1.1.swift */; };
-		OBJ_138 /* testCreateSnapshotWithExtendedDelimiter2.1.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_57 /* testCreateSnapshotWithExtendedDelimiter2.1.swift */; };
-		OBJ_139 /* testCreateSnapshotWithExtendedDelimiterSingleLine1.1.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_58 /* testCreateSnapshotWithExtendedDelimiterSingleLine1.1.swift */; };
-		OBJ_140 /* testCreateSnapshotWithExtendedDelimiterSingleLine2.1.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_59 /* testCreateSnapshotWithExtendedDelimiterSingleLine2.1.swift */; };
-		OBJ_141 /* testCreateSnapshotWithLongerExtendedDelimiter1.1.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_60 /* testCreateSnapshotWithLongerExtendedDelimiter1.1.swift */; };
-		OBJ_142 /* testCreateSnapshotWithLongerExtendedDelimiter2.1.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_61 /* testCreateSnapshotWithLongerExtendedDelimiter2.1.swift */; };
-		OBJ_143 /* testCreateSnapshotWithShorterExtendedDelimiter1.1.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_62 /* testCreateSnapshotWithShorterExtendedDelimiter1.1.swift */; };
-		OBJ_144 /* testCreateSnapshotWithShorterExtendedDelimiter2.1.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_63 /* testCreateSnapshotWithShorterExtendedDelimiter2.1.swift */; };
-		OBJ_145 /* testUpdateSeveralSnapshotsSwapingLines1.1.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_64 /* testUpdateSeveralSnapshotsSwapingLines1.1.swift */; };
-		OBJ_146 /* testUpdateSeveralSnapshotsSwapingLines2.1.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_65 /* testUpdateSeveralSnapshotsSwapingLines2.1.swift */; };
-		OBJ_147 /* testUpdateSeveralSnapshotsWithLessLines.1.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_66 /* testUpdateSeveralSnapshotsWithLessLines.1.swift */; };
-		OBJ_148 /* testUpdateSeveralSnapshotsWithMoreLines.1.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_67 /* testUpdateSeveralSnapshotsWithMoreLines.1.swift */; };
-		OBJ_149 /* testUpdateSnapshot.1.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_68 /* testUpdateSnapshot.1.swift */; };
-		OBJ_150 /* testUpdateSnapshotCombined1.1.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_69 /* testUpdateSnapshotCombined1.1.swift */; };
-		OBJ_151 /* testUpdateSnapshotWithExtendedDelimiter1.1.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_70 /* testUpdateSnapshotWithExtendedDelimiter1.1.swift */; };
-		OBJ_152 /* testUpdateSnapshotWithExtendedDelimiter2.1.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_71 /* testUpdateSnapshotWithExtendedDelimiter2.1.swift */; };
-		OBJ_153 /* testUpdateSnapshotWithLessLines.1.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_72 /* testUpdateSnapshotWithLessLines.1.swift */; };
-		OBJ_154 /* testUpdateSnapshotWithLongerExtendedDelimiter1.1.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_73 /* testUpdateSnapshotWithLongerExtendedDelimiter1.1.swift */; };
-		OBJ_155 /* testUpdateSnapshotWithLongerExtendedDelimiter2.1.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_74 /* testUpdateSnapshotWithLongerExtendedDelimiter2.1.swift */; };
-		OBJ_156 /* testUpdateSnapshotWithMoreLines.1.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_75 /* testUpdateSnapshotWithMoreLines.1.swift */; };
-		OBJ_157 /* testUpdateSnapshotWithShorterExtendedDelimiter1.1.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_76 /* testUpdateSnapshotWithShorterExtendedDelimiter1.1.swift */; };
-		OBJ_158 /* testUpdateSnapshotWithShorterExtendedDelimiter2.1.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_77 /* testUpdateSnapshotWithShorterExtendedDelimiter2.1.swift */; };
 		OBJ_160 /* SnapshotTesting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-snapshot-testing::SnapshotTesting::Product" /* SnapshotTesting.framework */; };
 		OBJ_167 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
-		OBJ_91 /* AssertInlineSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* AssertInlineSnapshot.swift */; };
-		OBJ_92 /* AssertSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* AssertSnapshot.swift */; };
-		OBJ_93 /* Async.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* Async.swift */; };
-		OBJ_94 /* Internal.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* Internal.swift */; };
-		OBJ_95 /* PlistEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* PlistEncoder.swift */; };
-		OBJ_96 /* String+SpecialCharacters.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* String+SpecialCharacters.swift */; };
-		OBJ_97 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* View.swift */; };
-		OBJ_98 /* XCTAttachment.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* XCTAttachment.swift */; };
-		OBJ_99 /* Diff.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_18 /* Diff.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -105,76 +43,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		OBJ_10 /* AssertSnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssertSnapshot.swift; sourceTree = "<group>"; };
-		OBJ_11 /* Async.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Async.swift; sourceTree = "<group>"; };
-		OBJ_13 /* Internal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Internal.swift; sourceTree = "<group>"; };
-		OBJ_14 /* PlistEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlistEncoder.swift; sourceTree = "<group>"; };
-		OBJ_15 /* String+SpecialCharacters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+SpecialCharacters.swift"; sourceTree = "<group>"; };
-		OBJ_16 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
-		OBJ_17 /* XCTAttachment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTAttachment.swift; sourceTree = "<group>"; };
-		OBJ_18 /* Diff.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diff.swift; sourceTree = "<group>"; };
-		OBJ_19 /* Diffing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diffing.swift; sourceTree = "<group>"; };
-		OBJ_21 /* Wait.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wait.swift; sourceTree = "<group>"; };
-		OBJ_22 /* SnapshotTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapshotTestCase.swift; sourceTree = "<group>"; };
-		OBJ_23 /* Snapshotting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snapshotting.swift; sourceTree = "<group>"; };
-		OBJ_25 /* Any.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Any.swift; sourceTree = "<group>"; };
-		OBJ_26 /* CALayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CALayer.swift; sourceTree = "<group>"; };
-		OBJ_27 /* CGPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGPath.swift; sourceTree = "<group>"; };
-		OBJ_28 /* CaseIterable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaseIterable.swift; sourceTree = "<group>"; };
-		OBJ_29 /* Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Codable.swift; sourceTree = "<group>"; };
-		OBJ_30 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
-		OBJ_31 /* Description.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Description.swift; sourceTree = "<group>"; };
-		OBJ_32 /* NSBezierPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSBezierPath.swift; sourceTree = "<group>"; };
-		OBJ_33 /* NSImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSImage.swift; sourceTree = "<group>"; };
-		OBJ_34 /* NSView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSView.swift; sourceTree = "<group>"; };
-		OBJ_35 /* NSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSViewController.swift; sourceTree = "<group>"; };
-		OBJ_36 /* SceneKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneKit.swift; sourceTree = "<group>"; };
-		OBJ_37 /* SpriteKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteKit.swift; sourceTree = "<group>"; };
-		OBJ_38 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
-		OBJ_39 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
-		OBJ_40 /* UIBezierPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIBezierPath.swift; sourceTree = "<group>"; };
-		OBJ_41 /* UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
-		OBJ_42 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
-		OBJ_43 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
-		OBJ_44 /* URLRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLRequest.swift; sourceTree = "<group>"; };
-		OBJ_47 /* InlineSnapshotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InlineSnapshotTests.swift; sourceTree = "<group>"; };
-		OBJ_48 /* SnapshotTestingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapshotTestingTests.swift; sourceTree = "<group>"; };
-		OBJ_49 /* TestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestHelpers.swift; sourceTree = "<group>"; };
-		OBJ_50 /* WaitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaitTests.swift; sourceTree = "<group>"; };
-		OBJ_53 /* testCreateSnapshotEscapedNewlineLastLine.1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testCreateSnapshotEscapedNewlineLastLine.1.swift; sourceTree = "<group>"; };
-		OBJ_54 /* testCreateSnapshotMultiLine.1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testCreateSnapshotMultiLine.1.swift; sourceTree = "<group>"; };
-		OBJ_55 /* testCreateSnapshotSingleLine.1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testCreateSnapshotSingleLine.1.swift; sourceTree = "<group>"; };
-		OBJ_56 /* testCreateSnapshotWithExtendedDelimiter1.1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testCreateSnapshotWithExtendedDelimiter1.1.swift; sourceTree = "<group>"; };
-		OBJ_57 /* testCreateSnapshotWithExtendedDelimiter2.1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testCreateSnapshotWithExtendedDelimiter2.1.swift; sourceTree = "<group>"; };
-		OBJ_58 /* testCreateSnapshotWithExtendedDelimiterSingleLine1.1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testCreateSnapshotWithExtendedDelimiterSingleLine1.1.swift; sourceTree = "<group>"; };
-		OBJ_59 /* testCreateSnapshotWithExtendedDelimiterSingleLine2.1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testCreateSnapshotWithExtendedDelimiterSingleLine2.1.swift; sourceTree = "<group>"; };
+		3F43EB7E2ABB7B45001D8921 /* Tests */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Tests; sourceTree = "<group>"; };
+		3F43EB7F2ABB7B46001D8921 /* Sources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sources; sourceTree = "<group>"; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
-		OBJ_60 /* testCreateSnapshotWithLongerExtendedDelimiter1.1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testCreateSnapshotWithLongerExtendedDelimiter1.1.swift; sourceTree = "<group>"; };
-		OBJ_61 /* testCreateSnapshotWithLongerExtendedDelimiter2.1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testCreateSnapshotWithLongerExtendedDelimiter2.1.swift; sourceTree = "<group>"; };
-		OBJ_62 /* testCreateSnapshotWithShorterExtendedDelimiter1.1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testCreateSnapshotWithShorterExtendedDelimiter1.1.swift; sourceTree = "<group>"; };
-		OBJ_63 /* testCreateSnapshotWithShorterExtendedDelimiter2.1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testCreateSnapshotWithShorterExtendedDelimiter2.1.swift; sourceTree = "<group>"; };
-		OBJ_64 /* testUpdateSeveralSnapshotsSwapingLines1.1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testUpdateSeveralSnapshotsSwapingLines1.1.swift; sourceTree = "<group>"; };
-		OBJ_65 /* testUpdateSeveralSnapshotsSwapingLines2.1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testUpdateSeveralSnapshotsSwapingLines2.1.swift; sourceTree = "<group>"; };
-		OBJ_66 /* testUpdateSeveralSnapshotsWithLessLines.1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testUpdateSeveralSnapshotsWithLessLines.1.swift; sourceTree = "<group>"; };
-		OBJ_67 /* testUpdateSeveralSnapshotsWithMoreLines.1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testUpdateSeveralSnapshotsWithMoreLines.1.swift; sourceTree = "<group>"; };
-		OBJ_68 /* testUpdateSnapshot.1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testUpdateSnapshot.1.swift; sourceTree = "<group>"; };
-		OBJ_69 /* testUpdateSnapshotCombined1.1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testUpdateSnapshotCombined1.1.swift; sourceTree = "<group>"; };
-		OBJ_70 /* testUpdateSnapshotWithExtendedDelimiter1.1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testUpdateSnapshotWithExtendedDelimiter1.1.swift; sourceTree = "<group>"; };
-		OBJ_71 /* testUpdateSnapshotWithExtendedDelimiter2.1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testUpdateSnapshotWithExtendedDelimiter2.1.swift; sourceTree = "<group>"; };
-		OBJ_72 /* testUpdateSnapshotWithLessLines.1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testUpdateSnapshotWithLessLines.1.swift; sourceTree = "<group>"; };
-		OBJ_73 /* testUpdateSnapshotWithLongerExtendedDelimiter1.1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testUpdateSnapshotWithLongerExtendedDelimiter1.1.swift; sourceTree = "<group>"; };
-		OBJ_74 /* testUpdateSnapshotWithLongerExtendedDelimiter2.1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testUpdateSnapshotWithLongerExtendedDelimiter2.1.swift; sourceTree = "<group>"; };
-		OBJ_75 /* testUpdateSnapshotWithMoreLines.1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testUpdateSnapshotWithMoreLines.1.swift; sourceTree = "<group>"; };
-		OBJ_76 /* testUpdateSnapshotWithShorterExtendedDelimiter1.1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testUpdateSnapshotWithShorterExtendedDelimiter1.1.swift; sourceTree = "<group>"; };
-		OBJ_77 /* testUpdateSnapshotWithShorterExtendedDelimiter2.1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testUpdateSnapshotWithShorterExtendedDelimiter2.1.swift; sourceTree = "<group>"; };
 		OBJ_81 /* Documentation */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Documentation; sourceTree = SOURCE_ROOT; };
 		OBJ_82 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		OBJ_83 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
 		OBJ_84 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		OBJ_85 /* CONTRIBUTING.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CONTRIBUTING.md; sourceTree = "<group>"; };
-		OBJ_9 /* AssertInlineSnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssertInlineSnapshot.swift; sourceTree = "<group>"; };
 		"swift-snapshot-testing::SnapshotTesting::Product" /* SnapshotTesting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SnapshotTesting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"swift-snapshot-testing::SnapshotTestingTests::Product" /* SnapshotTestingTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = SnapshotTestingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		"swift-snapshot-testing::SnapshotTestingTests::Product" /* SnapshotTestingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = SnapshotTestingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -196,80 +74,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		OBJ_12 /* Common */ = {
+		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
-				OBJ_13 /* Internal.swift */,
-				OBJ_14 /* PlistEncoder.swift */,
-				OBJ_15 /* String+SpecialCharacters.swift */,
-				OBJ_16 /* View.swift */,
-				OBJ_17 /* XCTAttachment.swift */,
-			);
-			path = Common;
-			sourceTree = "<group>";
-		};
-		OBJ_20 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_21 /* Wait.swift */,
-			);
-			path = Extensions;
-			sourceTree = "<group>";
-		};
-		OBJ_24 /* Snapshotting */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_25 /* Any.swift */,
-				OBJ_26 /* CALayer.swift */,
-				OBJ_27 /* CGPath.swift */,
-				OBJ_28 /* CaseIterable.swift */,
-				OBJ_29 /* Codable.swift */,
-				OBJ_30 /* Data.swift */,
-				OBJ_31 /* Description.swift */,
-				OBJ_32 /* NSBezierPath.swift */,
-				OBJ_33 /* NSImage.swift */,
-				OBJ_34 /* NSView.swift */,
-				OBJ_35 /* NSViewController.swift */,
-				OBJ_36 /* SceneKit.swift */,
-				OBJ_37 /* SpriteKit.swift */,
-				OBJ_38 /* String.swift */,
-				OBJ_39 /* SwiftUIView.swift */,
-				OBJ_40 /* UIBezierPath.swift */,
-				OBJ_41 /* UIImage.swift */,
-				OBJ_42 /* UIView.swift */,
-				OBJ_43 /* UIViewController.swift */,
-				OBJ_44 /* URLRequest.swift */,
-			);
-			path = Snapshotting;
-			sourceTree = "<group>";
-		};
-		OBJ_45 /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_46 /* SnapshotTestingTests */,
-			);
-			name = Tests;
-			sourceTree = SOURCE_ROOT;
-		};
-		OBJ_46 /* SnapshotTestingTests */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_47 /* InlineSnapshotTests.swift */,
-				OBJ_48 /* SnapshotTestingTests.swift */,
-				OBJ_49 /* TestHelpers.swift */,
-				OBJ_50 /* WaitTests.swift */,
-				OBJ_51 /* __Snapshots__ */,
-			);
-			name = SnapshotTestingTests;
-			path = Tests/SnapshotTestingTests;
-			sourceTree = SOURCE_ROOT;
-		};
-		OBJ_5 /*  */ = {
-			isa = PBXGroup;
-			children = (
+				3F43EB7F2ABB7B46001D8921 /* Sources */,
+				3F43EB7E2ABB7B45001D8921 /* Tests */,
 				OBJ_6 /* Package.swift */,
-				OBJ_7 /* Sources */,
-				OBJ_45 /* Tests */,
 				OBJ_78 /* Products */,
 				OBJ_81 /* Documentation */,
 				OBJ_82 /* LICENSE */,
@@ -277,56 +87,7 @@
 				OBJ_84 /* README.md */,
 				OBJ_85 /* CONTRIBUTING.md */,
 			);
-			name = "";
 			sourceTree = "<group>";
-		};
-		OBJ_51 /* __Snapshots__ */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_52 /* InlineSnapshotTests */,
-			);
-			path = __Snapshots__;
-			sourceTree = "<group>";
-		};
-		OBJ_52 /* InlineSnapshotTests */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_53 /* testCreateSnapshotEscapedNewlineLastLine.1.swift */,
-				OBJ_54 /* testCreateSnapshotMultiLine.1.swift */,
-				OBJ_55 /* testCreateSnapshotSingleLine.1.swift */,
-				OBJ_56 /* testCreateSnapshotWithExtendedDelimiter1.1.swift */,
-				OBJ_57 /* testCreateSnapshotWithExtendedDelimiter2.1.swift */,
-				OBJ_58 /* testCreateSnapshotWithExtendedDelimiterSingleLine1.1.swift */,
-				OBJ_59 /* testCreateSnapshotWithExtendedDelimiterSingleLine2.1.swift */,
-				OBJ_60 /* testCreateSnapshotWithLongerExtendedDelimiter1.1.swift */,
-				OBJ_61 /* testCreateSnapshotWithLongerExtendedDelimiter2.1.swift */,
-				OBJ_62 /* testCreateSnapshotWithShorterExtendedDelimiter1.1.swift */,
-				OBJ_63 /* testCreateSnapshotWithShorterExtendedDelimiter2.1.swift */,
-				OBJ_64 /* testUpdateSeveralSnapshotsSwapingLines1.1.swift */,
-				OBJ_65 /* testUpdateSeveralSnapshotsSwapingLines2.1.swift */,
-				OBJ_66 /* testUpdateSeveralSnapshotsWithLessLines.1.swift */,
-				OBJ_67 /* testUpdateSeveralSnapshotsWithMoreLines.1.swift */,
-				OBJ_68 /* testUpdateSnapshot.1.swift */,
-				OBJ_69 /* testUpdateSnapshotCombined1.1.swift */,
-				OBJ_70 /* testUpdateSnapshotWithExtendedDelimiter1.1.swift */,
-				OBJ_71 /* testUpdateSnapshotWithExtendedDelimiter2.1.swift */,
-				OBJ_72 /* testUpdateSnapshotWithLessLines.1.swift */,
-				OBJ_73 /* testUpdateSnapshotWithLongerExtendedDelimiter1.1.swift */,
-				OBJ_74 /* testUpdateSnapshotWithLongerExtendedDelimiter2.1.swift */,
-				OBJ_75 /* testUpdateSnapshotWithMoreLines.1.swift */,
-				OBJ_76 /* testUpdateSnapshotWithShorterExtendedDelimiter1.1.swift */,
-				OBJ_77 /* testUpdateSnapshotWithShorterExtendedDelimiter2.1.swift */,
-			);
-			path = InlineSnapshotTests;
-			sourceTree = "<group>";
-		};
-		OBJ_7 /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_8 /* SnapshotTesting */,
-			);
-			name = Sources;
-			sourceTree = SOURCE_ROOT;
 		};
 		OBJ_78 /* Products */ = {
 			isa = PBXGroup;
@@ -336,24 +97,6 @@
 			);
 			name = Products;
 			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		OBJ_8 /* SnapshotTesting */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_9 /* AssertInlineSnapshot.swift */,
-				OBJ_10 /* AssertSnapshot.swift */,
-				OBJ_11 /* Async.swift */,
-				OBJ_12 /* Common */,
-				OBJ_18 /* Diff.swift */,
-				OBJ_19 /* Diffing.swift */,
-				OBJ_20 /* Extensions */,
-				OBJ_22 /* SnapshotTestCase.swift */,
-				OBJ_23 /* Snapshotting.swift */,
-				OBJ_24 /* Snapshotting */,
-			);
-			name = SnapshotTesting;
-			path = Sources/SnapshotTesting;
-			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -421,7 +164,7 @@
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5 /*  */;
+			mainGroup = OBJ_5;
 			productRefGroup = OBJ_78 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -439,35 +182,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_130 /* InlineSnapshotTests.swift in Sources */,
-				OBJ_131 /* SnapshotTestingTests.swift in Sources */,
-				OBJ_132 /* TestHelpers.swift in Sources */,
-				OBJ_133 /* WaitTests.swift in Sources */,
-				OBJ_134 /* testCreateSnapshotEscapedNewlineLastLine.1.swift in Sources */,
-				OBJ_135 /* testCreateSnapshotMultiLine.1.swift in Sources */,
-				OBJ_136 /* testCreateSnapshotSingleLine.1.swift in Sources */,
-				OBJ_137 /* testCreateSnapshotWithExtendedDelimiter1.1.swift in Sources */,
-				OBJ_138 /* testCreateSnapshotWithExtendedDelimiter2.1.swift in Sources */,
-				OBJ_139 /* testCreateSnapshotWithExtendedDelimiterSingleLine1.1.swift in Sources */,
-				OBJ_140 /* testCreateSnapshotWithExtendedDelimiterSingleLine2.1.swift in Sources */,
-				OBJ_141 /* testCreateSnapshotWithLongerExtendedDelimiter1.1.swift in Sources */,
-				OBJ_142 /* testCreateSnapshotWithLongerExtendedDelimiter2.1.swift in Sources */,
-				OBJ_143 /* testCreateSnapshotWithShorterExtendedDelimiter1.1.swift in Sources */,
-				OBJ_144 /* testCreateSnapshotWithShorterExtendedDelimiter2.1.swift in Sources */,
-				OBJ_145 /* testUpdateSeveralSnapshotsSwapingLines1.1.swift in Sources */,
-				OBJ_146 /* testUpdateSeveralSnapshotsSwapingLines2.1.swift in Sources */,
-				OBJ_147 /* testUpdateSeveralSnapshotsWithLessLines.1.swift in Sources */,
-				OBJ_148 /* testUpdateSeveralSnapshotsWithMoreLines.1.swift in Sources */,
-				OBJ_149 /* testUpdateSnapshot.1.swift in Sources */,
-				OBJ_150 /* testUpdateSnapshotCombined1.1.swift in Sources */,
-				OBJ_151 /* testUpdateSnapshotWithExtendedDelimiter1.1.swift in Sources */,
-				OBJ_152 /* testUpdateSnapshotWithExtendedDelimiter2.1.swift in Sources */,
-				OBJ_153 /* testUpdateSnapshotWithLessLines.1.swift in Sources */,
-				OBJ_154 /* testUpdateSnapshotWithLongerExtendedDelimiter1.1.swift in Sources */,
-				OBJ_155 /* testUpdateSnapshotWithLongerExtendedDelimiter2.1.swift in Sources */,
-				OBJ_156 /* testUpdateSnapshotWithMoreLines.1.swift in Sources */,
-				OBJ_157 /* testUpdateSnapshotWithShorterExtendedDelimiter1.1.swift in Sources */,
-				OBJ_158 /* testUpdateSnapshotWithShorterExtendedDelimiter2.1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -483,39 +197,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_91 /* AssertInlineSnapshot.swift in Sources */,
-				OBJ_92 /* AssertSnapshot.swift in Sources */,
-				OBJ_93 /* Async.swift in Sources */,
-				OBJ_94 /* Internal.swift in Sources */,
-				OBJ_95 /* PlistEncoder.swift in Sources */,
-				OBJ_96 /* String+SpecialCharacters.swift in Sources */,
-				OBJ_97 /* View.swift in Sources */,
-				OBJ_98 /* XCTAttachment.swift in Sources */,
-				OBJ_99 /* Diff.swift in Sources */,
-				OBJ_100 /* Diffing.swift in Sources */,
-				OBJ_101 /* Wait.swift in Sources */,
-				OBJ_102 /* SnapshotTestCase.swift in Sources */,
-				OBJ_103 /* Snapshotting.swift in Sources */,
-				OBJ_104 /* Any.swift in Sources */,
-				OBJ_105 /* CALayer.swift in Sources */,
-				OBJ_106 /* CGPath.swift in Sources */,
-				OBJ_107 /* CaseIterable.swift in Sources */,
-				OBJ_108 /* Codable.swift in Sources */,
-				OBJ_109 /* Data.swift in Sources */,
-				OBJ_110 /* Description.swift in Sources */,
-				OBJ_111 /* NSBezierPath.swift in Sources */,
-				OBJ_112 /* NSImage.swift in Sources */,
-				OBJ_113 /* NSView.swift in Sources */,
-				OBJ_114 /* NSViewController.swift in Sources */,
-				OBJ_115 /* SceneKit.swift in Sources */,
-				OBJ_116 /* SpriteKit.swift in Sources */,
-				OBJ_117 /* String.swift in Sources */,
-				OBJ_118 /* SwiftUIView.swift in Sources */,
-				OBJ_119 /* UIBezierPath.swift in Sources */,
-				OBJ_120 /* UIImage.swift in Sources */,
-				OBJ_121 /* UIView.swift in Sources */,
-				OBJ_122 /* UIViewController.swift in Sources */,
-				OBJ_123 /* URLRequest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
