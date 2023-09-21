@@ -21,8 +21,6 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		3FF624A22ABC574100C9E617 /* AssertInlineSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF6247A2ABC574100C9E617 /* AssertInlineSnapshot.swift */; };
-		3FF624A42ABC574100C9E617 /* Exports.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF6247C2ABC574100C9E617 /* Exports.swift */; };
 		3FF624A52ABC574100C9E617 /* Diffing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF6247E2ABC574100C9E617 /* Diffing.swift */; };
 		3FF624A62ABC574100C9E617 /* CALayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF624802ABC574100C9E617 /* CALayer.swift */; };
 		3FF624A72ABC574100C9E617 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF624812ABC574100C9E617 /* UIView.swift */; };
@@ -80,9 +78,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3FF6247A2ABC574100C9E617 /* AssertInlineSnapshot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssertInlineSnapshot.swift; sourceTree = "<group>"; };
-		3FF6247B2ABC574100C9E617 /* Documentation.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Documentation.docc; sourceTree = "<group>"; };
-		3FF6247C2ABC574100C9E617 /* Exports.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exports.swift; sourceTree = "<group>"; };
 		3FF6247E2ABC574100C9E617 /* Diffing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Diffing.swift; sourceTree = "<group>"; };
 		3FF624802ABC574100C9E617 /* CALayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CALayer.swift; sourceTree = "<group>"; };
 		3FF624812ABC574100C9E617 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
@@ -376,20 +371,9 @@
 		3FF624782ABC574100C9E617 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				3FF624792ABC574100C9E617 /* InlineSnapshotTesting */,
 				3FF6247D2ABC574100C9E617 /* SnapshotTesting */,
 			);
 			path = Sources;
-			sourceTree = "<group>";
-		};
-		3FF624792ABC574100C9E617 /* InlineSnapshotTesting */ = {
-			isa = PBXGroup;
-			children = (
-				3FF6247A2ABC574100C9E617 /* AssertInlineSnapshot.swift */,
-				3FF6247B2ABC574100C9E617 /* Documentation.docc */,
-				3FF6247C2ABC574100C9E617 /* Exports.swift */,
-			);
-			path = InlineSnapshotTesting;
 			sourceTree = "<group>";
 		};
 		3FF6247D2ABC574100C9E617 /* SnapshotTesting */ = {
@@ -874,7 +858,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				3FF624A22ABC574100C9E617 /* AssertInlineSnapshot.swift in Sources */,
 				3FF624AE2ABC574100C9E617 /* NSBezierPath.swift in Sources */,
 				3FF624BF2ABC574100C9E617 /* View.swift in Sources */,
 				3FF624C42ABC574100C9E617 /* Async.swift in Sources */,
@@ -883,7 +866,6 @@
 				3FF624BA2ABC574100C9E617 /* AssertSnapshot.swift in Sources */,
 				3FF624C12ABC574100C9E617 /* XCTAttachment.swift in Sources */,
 				3FF624AB2ABC574100C9E617 /* Data.swift in Sources */,
-				3FF624A42ABC574100C9E617 /* Exports.swift in Sources */,
 				3FF624C32ABC574100C9E617 /* String+SpecialCharacters.swift in Sources */,
 				3FF624B92ABC574100C9E617 /* Diff.swift in Sources */,
 				3FF624A82ABC574100C9E617 /* CaseIterable.swift in Sources */,
